@@ -8,3 +8,10 @@ if (hamburger && navLinks) {
     navLinks.style.display = (navLinks.style.display == 'none' || navLinks.style.display == '') ? 'flex' : 'none';
   });
 }
+
+/* Close hamburger menu on menu item selection */
+if (navLinks) {
+  navLinks.addEventListener('click', function () {
+    navLinks.style.display = "none";
+  });
+}
