@@ -538,6 +538,11 @@ footer {
     display: none;
   }
 
+  .nav-links a {
+    display: block;
+    min-height: 52px;
+  }
+
   .hamburger {
    display: block;
   }
