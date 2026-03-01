@@ -77,10 +77,9 @@ nav {
 }
 
 /* HERO */
-
-
-#hero #hero-self-portrait {
+#hero-self-portrait {
   width: 75%;
+  height: auto;
 }
 
 #hero {
@@ -534,6 +533,14 @@ footer {
 
   #hero {
     padding: 7rem 1.5rem 4rem;
+  }
+
+  .hero-sub {
+    flex-direction: column;
+  }
+
+  #hero-self-portrait {
+    width: 150px;
   }
 
   .about-grid {
