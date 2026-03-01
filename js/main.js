@@ -9,7 +9,14 @@ const contacts = [
     icon: '✉',
     href: ['mail', 'to', ':', ['anders.benke', '@', 'gmail.com'].join('')].join(''),
     label: ['anders', '.benke@', 'gmail.com'].join('')
+  },
+  {
+    icon: '✉',
+    href: ['https://www.linkedin.com/in/anders-benke-2765a0213/'].join('')].join(''),
+    label: ['LinkedIn'].join('')
   }
+
+  // 
 ];
 
 const wrap = document.getElementById('contact-links');

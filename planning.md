@@ -1,9 +1,10 @@
 # Todo
 
 ## Design
-- In med bild.
-- In med LinkedIn-länk.
 - Mjuka till bgfärg för main content?
+- Mobilvy ser knas ut. Dona med
+	- Justera bredd på text vs bild i hero om mig.
+	- Neny hamburgare?
 
 ## Content
 
