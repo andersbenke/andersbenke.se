@@ -86,7 +86,7 @@ nav {
 
 /* HERO */
 #hero-self-portrait {
-  width: 75%;
+  width: 300px;
   height: auto;
 }
 
@@ -118,7 +118,6 @@ nav {
 .hero-content {
   position: relative;
   z-index: 2;
-  max-width: 680px;
 }
 
 .hero-tag {
@@ -139,10 +138,18 @@ nav {
 
 .hero-sub {
   display: flex;
+  align-items: center;
   font-size: 1.05rem;
   color: var(--bark-light);
-  max-width: 480px;
   margin-bottom: 2.5rem;
+}
+
+.hero-sub p {
+  flex: 3;
+}
+
+.hero-sub img {
+  flex: 1;
 }
 
 .hero-cta {
